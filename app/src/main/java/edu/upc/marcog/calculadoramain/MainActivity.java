@@ -127,8 +127,8 @@ public class MainActivity extends AppCompatActivity {
                 n2 = Double.parseDouble(numero2);
                 if (angulo == 1)
                 {
-                    n1 = n1*180/3.14;
-                    n2 = n2*180/3.14;
+                    n1 = n1*57.29;
+                    n2 = n2*57.29;
                 }
                 if (sincos == 's')
                 {
@@ -245,8 +245,8 @@ public class MainActivity extends AppCompatActivity {
                 case '0':
                     if (angulo == 1)
                     {
-                        n1 = n1*180/3.14;
-                        n2 = n2*180/3.14;
+                        n1 = n1/57.29;
+                        n2 = n2/57.29;
                     }
                     if (sincos == 's')
                     {
